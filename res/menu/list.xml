@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   <item android:id="@+id/upload" android:title="Upload Picture"></item>
+   <item android:id="@+id/music" android:title="Upload Media"></item>
+   <item android:id="@+id/makefolder" android:title="Create New Folder"></item>
+  
+  
+
+</menu>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.drop"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.drop.Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.drop.SignIn"
+            android:label="@string/title_activity_sign_in" >
+        </activity>
+        <activity
+            android:name="com.example.drop.SignUp"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name="com.example.drop.Dropbox"
+            android:label="@string/title_activity_list" >
+        </activity>
+        <activity
+            android:name="com.example.drop.ItemSelection"
+            android:label="@string/title_activity_item_selection" >
+        </activity>
+        <activity
+            android:name="com.example.drop.List_single"
+            android:label="@string/title_activity_list_single" >
+        </activity>
+        <activity
+            android:name="com.example.drop.List_Single"
+            android:label="@string/title_activity_list__single" >
+        </activity>
+        <activity
+            android:name="com.example.drop.Docs"
+            android:label="@string/title_activity_docs" >
+        </activity>
+        <activity
+            android:name="com.example.drop.Dropbox_Data"
+            android:label="@string/title_activity_dropbox__data" >
+        </activity>
+        <activity
+            android:name="com.example.drop.My_Dropbox"
+            android:label="@string/title_activity_my__dropbox" >
+        </activity>
+        <activity
+            android:name="com.example.drop.Search"
+            android:label="@string/title_activity_search" >
+        </activity>
+    </application>
+
+</manifest>

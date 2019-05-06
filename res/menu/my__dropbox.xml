@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/upload_data" android:title="Upload Data"
+        android:icon="@android:drawable/ic_menu_upload"></item>
+    
+    <item android:id="@+id/folder" 
+        android:title="New Folder" android:icon="@android:drawable/ic_input_add"
+         ></item>
+    <item android:id="@+id/sort" android:title="Sort Items"
+        android:icon="@android:drawable/ic_menu_sort_alphabetically"></item>
+    
+    <item android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+         android:actionViewClass="android.widget.SearchView"
+        android:showAsAction="always"></item>
+    
+   
+    
+
+</menu>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Drop</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sign_in">SignIn</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_list">List</string>
+    <string name="title_activity_item_selection">ItemSelection</string>
+    <string name="title_activity_list_single">List_single</string>
+    <string name="title_activity_list__single">List_Single</string>
+    <string name="title_activity_docs">Docs</string>
+    <string name="pref_new_folder">Set New Folder</string>
+    <string name="pref_new_folder_summary">Enter Folder Name</string>
+    <string name="pref_user_profile">User Profile</string>
+    <string name="title_activity_dropbox__data">Dropbox_Data</string>
+    <string name="title_activity_my__dropbox">My_Dropbox</string>
+    <string name="title_activity_search">Search</string>
+
+</resources>
